@@ -13,8 +13,8 @@ public class NoteRepository {
 
     public NoteRepository(Application application){
         NoteDatabase database = NoteDatabase.getInstance(application);
-        NoteDAO noteDAO=database.noteDAO();
-        LiveData<List<Note>> allNotes= noteDAO.getAllNotes();
+        noteDAO = database.noteDAO();
+        allNotes= noteDAO.getAllNotes();
     }
 
     public void insert(Note note){
