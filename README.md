@@ -1,4 +1,4 @@
-This  project its  simple note app 
+This  project it's  simple note app 
 
 I used MVVM architecture and  architecture component such as Live Data 
 
